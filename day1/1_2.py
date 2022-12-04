@@ -21,7 +21,7 @@ def getTopCalories(filename):
 
     maxCalories = swapValues(maxCalories)
     maxCalories.pop(0)
-    print('The maximum calories possible is ' + str(sum(maxCalories)))
+    print(f'The maximum calories possible is {sum(maxCalories)}')
 
 
 getTopCalories('input.txt')

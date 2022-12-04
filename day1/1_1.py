@@ -15,7 +15,7 @@ def getMaxCalories(filename):
     if(currentCalories > maxCalories):
         maxCalories = currentCalories
 
-    print('The maximum calories possible is ' + str(maxCalories))
+    print(f'The maximum calories possible is {maxCalories}')
 
 
 getMaxCalories('input.txt')
